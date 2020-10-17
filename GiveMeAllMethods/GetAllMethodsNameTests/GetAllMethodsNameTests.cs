@@ -7,7 +7,7 @@ namespace GetAllMethodsName.Tests
     public class GetAllMethodsNameTests
     {
         [Test]
-        public void NullTest()
+        public void NullTestReturnEmptyArray()
         {
             Assert.AreEqual(0, GetAllMethodsName.GetMethodNames(null).Length);
         }
