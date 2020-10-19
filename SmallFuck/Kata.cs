@@ -4,7 +4,11 @@ using System.Linq;
 namespace SmallFuck
 {
     public class Kata
-    {
+    {   
+        //TO DO: 
+        //1) Nested loop doesn't work
+        //2) delete try/catch
+        //3) replace switch to Dictionary
         static public string Interpreter(string code, string tape)
         {
             int position = 0;
