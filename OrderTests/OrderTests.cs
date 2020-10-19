@@ -8,7 +8,7 @@ namespace Order.Tests
 {
     public class OrderTests
     {
-        [Test, Description("Sample Tests")]
+        [Test]
         public void SampleTest()
         {
             Assert.AreEqual("Thi1s is2 3a T4est", Order.OrderText("is2 Thi1s T4est 3a"));

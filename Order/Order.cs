@@ -12,9 +12,7 @@ namespace Order
 
             string[] output = new string[9];
 
-            var words = text.Split(' ');
-
-            foreach (var word in words)
+            foreach (var word in text.Split(' '))
             {
                 foreach (var c in word)
                 {
@@ -26,19 +24,7 @@ namespace Order
                     continue;
                 }
             }
-            return MakeStringFromArray(output);
-        }
-
-        static private string MakeStringFromArray(string[] arr)
-        {
-            string str = "";
-
-            foreach (var item in arr.Where(w => w != null))
-            {
-                str += item + ' ';
-            }
-
-            return str.Remove(str.Length - 1);
+            return string.Join(" ", output).TrimEnd();
         }
     }
 }
