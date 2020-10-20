@@ -4,7 +4,7 @@ using System.Linq;
 namespace SmallFuck
 {
     public class Kata
-    {   
+    {
         //TO DO: 
         //1) Nested loop doesn't work
         //2) delete try/catch
@@ -52,24 +52,33 @@ namespace SmallFuck
                         case '[':
                             if (way[position] == '0')
                             {
-                                while (code[i] != ']')
+                                var loopCount = 1;
+                                while (loopCount != 0)
                                 {
                                     i++;
-                                    if (i == code.Length)
-                                        return new string(way);
+                                    if (code[i] == ']')
+                                        loopCount--;
+                                    else if (code[i] == '[')
+                                        loopCount++;
                                 }
+                                i--;
                             }
-
                             break;
 
                         case ']':
                             if (way[position] == '1')
-                                while (code[i] != '[')
+                            {
+                                var loopCount = 1;
+                                while (loopCount != 0)
                                 {
                                     i--;
-                                    if (i <= 0)
-                                        return new string(way);
+                                    if (code[i] == ']')
+                                        loopCount++;
+                                    else if (code[i] == '[')
+                                        loopCount--;
                                 }
+                            }
+
                             break;
 
                         default:
