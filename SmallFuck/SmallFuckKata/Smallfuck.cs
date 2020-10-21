@@ -17,41 +17,9 @@ namespace SmallFuck
             {
                 { '>', () => positionInTape++ },
                 { '<', () => positionInTape-- },
-
                 { '*', () => tapeArray[positionInTape] = tapeArray[positionInTape] == '1' ? '0' : '1' },
-                { '[', () =>
-                    {
-                        if (tapeArray[positionInTape] == '0')
-                        {
-                            var loopCount = 1;
-                            while (loopCount != 0)
-                            {
-                                positionInCode++;
-                                if (code[positionInCode] == ']')
-                                    loopCount--;
-                                else if (code[positionInCode] == '[')
-                                    loopCount++;
-                            }
-                        }
-                    }
-                },
-
-                {']', () =>
-                    {
-                        if (tapeArray[positionInTape] == '1')
-                        {
-                            var loopCount = 1;
-                            while (loopCount != 0)
-                            {
-                                positionInCode--;
-                                if (code[positionInCode] == ']')
-                                    loopCount++;
-                                else if (code[positionInCode] == '[')
-                                    loopCount--;
-                            }
-                        }
-                    }
-                }
+                { '[', () => Jump( 1, tapeArray, positionInTape, code, ref positionInCode) },
+                { ']', () => Jump(-1, tapeArray, positionInTape, code, ref positionInCode) }
             };
 
             while (positionInCode >= 0 && positionInCode < code.Length
@@ -64,6 +32,24 @@ namespace SmallFuck
             }
            
             return new string(tapeArray);
+        }
+
+        private static void Jump(int direction, char[] tapeArray, int positionInTape, string code, ref int positionInCode)
+        {
+            char ignoredChar = direction == 1 ? '1' : '0';
+
+            if (tapeArray[positionInTape] != ignoredChar)
+            {
+                var loopCount = 1;
+                while (loopCount != 0)
+                {
+                    positionInCode += direction;
+                    if (code[positionInCode] == ']')
+                        loopCount -= direction;
+                    else if (code[positionInCode] == '[')
+                        loopCount += direction;
+                }
+            }
         }
     }
 }
