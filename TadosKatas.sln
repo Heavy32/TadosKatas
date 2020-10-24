@@ -33,6 +33,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumStringsAsNumbersKata", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumStringsAsNumbersKataTests", "SumStringsAsnumbers\SumStringsAsNumbersKataTests\SumStringsAsNumbersKataTests.csproj", "{9E7BE20B-5445-4B54-8A41-81E1F906FB3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParenthesesKata", "ValidParenthesesKata\ValidParenthesesKata.csproj", "{CB621DAB-ED1A-46D4-8CFA-D3A950858E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParenthesesKataTests", "ValidParenthesesKataTests\ValidParenthesesKataTests.csproj", "{1E22918C-3437-49A6-BAD4-47214819400C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,14 @@ Global
 		{9E7BE20B-5445-4B54-8A41-81E1F906FB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7BE20B-5445-4B54-8A41-81E1F906FB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7BE20B-5445-4B54-8A41-81E1F906FB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB621DAB-ED1A-46D4-8CFA-D3A950858E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB621DAB-ED1A-46D4-8CFA-D3A950858E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB621DAB-ED1A-46D4-8CFA-D3A950858E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB621DAB-ED1A-46D4-8CFA-D3A950858E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E22918C-3437-49A6-BAD4-47214819400C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E22918C-3437-49A6-BAD4-47214819400C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E22918C-3437-49A6-BAD4-47214819400C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E22918C-3437-49A6-BAD4-47214819400C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
