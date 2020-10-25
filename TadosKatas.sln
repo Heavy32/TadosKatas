@@ -39,10 +39,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParenthesesKata", "Val
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParenthesesKataTests", "ValidParentheses\ValidParenthesesKataTests\ValidParenthesesKataTests.csproj", "{60295C49-EC17-42DA-A224-3EBC93893240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidBracesKata", "ValidBracesKata\ValidBracesKata.csproj", "{48913273-5DAC-4043-8455-38ECC918F7E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidBracesKataTests", "ValidBracesKataTests\ValidBracesKataTests.csproj", "{262E6A04-5520-42CF-9DB5-277715C9B2FE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,14 +93,6 @@ Global
 		{60295C49-EC17-42DA-A224-3EBC93893240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60295C49-EC17-42DA-A224-3EBC93893240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60295C49-EC17-42DA-A224-3EBC93893240}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48913273-5DAC-4043-8455-38ECC918F7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48913273-5DAC-4043-8455-38ECC918F7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48913273-5DAC-4043-8455-38ECC918F7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48913273-5DAC-4043-8455-38ECC918F7E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{262E6A04-5520-42CF-9DB5-277715C9B2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{262E6A04-5520-42CF-9DB5-277715C9B2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{262E6A04-5520-42CF-9DB5-277715C9B2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{262E6A04-5520-42CF-9DB5-277715C9B2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
