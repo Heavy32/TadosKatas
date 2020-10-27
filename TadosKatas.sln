@@ -49,7 +49,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vasya-Clerk", "Vasya-Clerk"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vasya-ClerkKata", "Vasya-Clerk\Vasya-ClerkKata\Vasya-ClerkKata.csproj", "{9914B6F4-22E4-415B-BF6C-E30F174A579C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vasya-ClerkKataTests", "Vasya-Clerk\Vasya-ClerkKataTests\Vasya-ClerkKataTests.csproj", "{AF987D2C-27AB-4677-97F3-BB28B08D53A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vasya-ClerkKataTests", "Vasya-Clerk\Vasya-ClerkKataTests\Vasya-ClerkKataTests.csproj", "{AF987D2C-27AB-4677-97F3-BB28B08D53A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindTheOddInt", "FindTheOddInt", "{C5AA2905-7C88-4AB2-8F1A-F72339AB3009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheOddIntKata", "FindTheOddInt\FindTheOddIntKata\FindTheOddIntKata.csproj", "{94D8194A-88AD-48D5-B3C0-299FD2F40E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheOddIntKataTests", "FindTheOddInt\FindTheOddIntKataTests\FindTheOddIntKataTests.csproj", "{DEF8FC3B-66BC-4418-9028-FD85A955CA8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +127,14 @@ Global
 		{AF987D2C-27AB-4677-97F3-BB28B08D53A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF987D2C-27AB-4677-97F3-BB28B08D53A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF987D2C-27AB-4677-97F3-BB28B08D53A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D8194A-88AD-48D5-B3C0-299FD2F40E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D8194A-88AD-48D5-B3C0-299FD2F40E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D8194A-88AD-48D5-B3C0-299FD2F40E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D8194A-88AD-48D5-B3C0-299FD2F40E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF8FC3B-66BC-4418-9028-FD85A955CA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF8FC3B-66BC-4418-9028-FD85A955CA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF8FC3B-66BC-4418-9028-FD85A955CA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF8FC3B-66BC-4418-9028-FD85A955CA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +156,8 @@ Global
 		{F28CA53B-81BC-4B29-9DA3-CF2E4016A805} = {CEA20D60-1624-46F7-99C6-14AAB0F4221D}
 		{9914B6F4-22E4-415B-BF6C-E30F174A579C} = {CD7F3BDE-AF59-452C-9F0E-14F8407747A4}
 		{AF987D2C-27AB-4677-97F3-BB28B08D53A9} = {CD7F3BDE-AF59-452C-9F0E-14F8407747A4}
+		{94D8194A-88AD-48D5-B3C0-299FD2F40E1F} = {C5AA2905-7C88-4AB2-8F1A-F72339AB3009}
+		{DEF8FC3B-66BC-4418-9028-FD85A955CA8D} = {C5AA2905-7C88-4AB2-8F1A-F72339AB3009}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BACC3492-3051-48DB-90B9-8A30028BA025}
