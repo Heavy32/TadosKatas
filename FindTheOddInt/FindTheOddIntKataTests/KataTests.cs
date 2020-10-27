@@ -1,8 +1,4 @@
 ﻿using NUnit.Framework;
-using FindTheOddIntKata;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FindTheOddIntKata.Tests
 {

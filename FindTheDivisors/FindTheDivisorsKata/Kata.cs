@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace FindTheDivisorsKata
 {
-    public class Kata
+	public class Kata
 	{
 		public static int[] Divisors(int number)
 		{

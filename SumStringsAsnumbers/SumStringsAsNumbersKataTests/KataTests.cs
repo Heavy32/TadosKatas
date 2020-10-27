@@ -1,8 +1,4 @@
 ﻿using NUnit.Framework;
-using SumStringsAsNumbersKata;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SumStringsAsNumbersKata.Tests
 {

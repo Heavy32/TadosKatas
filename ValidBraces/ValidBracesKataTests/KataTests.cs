@@ -1,8 +1,4 @@
 ﻿using NUnit.Framework;
-using ValidBracesKata;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ValidBracesKata.Tests
 {

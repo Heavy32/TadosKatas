@@ -1,8 +1,4 @@
 ﻿using NUnit.Framework;
-using Order;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Order.Tests
 {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SumStringsAsNumbersKata
+﻿namespace SumStringsAsNumbersKata
 {
     public class Kata
     {
