@@ -10,7 +10,6 @@ namespace SudokuKata
         {
             var boardInOneLine = board.SelectMany(x => x).ToArray();
 
-            var result = Enumerable.Range(0, 9).Select(x => boardInOneLine[x * 9]);
             (int X, int Y) coordinate;
 
             //line check
